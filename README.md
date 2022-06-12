@@ -4,26 +4,26 @@
 ### Table of Contents
 - [Introduction](#Introduction)  
 - [Implementation](#Implementation) 
-- [circuitry](#Circuit)
-- [Modules](#Verilog Modules)
+- [Circuitry](#Circuit)
+- [Modules](#Verilog-Modules)
 
   
 ### Introduction
 In banks customers are placed in a physical queue to wait for their turn.
 There is a machine that regulates and preserve the order of each customer
 
-![img.png](assets/img0.png)
+![img.png](assets/img0whitE.png)
 
 ### Implementation
 Our Machine is implemented using verilog hardware description language and written on FPGA board with the logic of queue
 (FIFO) to organize people entry and turns.
 
-![img.png](assets/img.png)
+![img.png](assets/img-white.png)
 
 Queue follows the FIFO (First In First Out) method and is open at both of its ends. Data insertion is done at one end 
 rear end or the tail of the queue while deletion is done at the other end called the front end or the head of the queue. 
 
-![img.png](assets/img2.png)
+![img.png](assets/BPMN 2.0 Example.png)
 
 ### Circuit
 
